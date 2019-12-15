@@ -392,7 +392,20 @@ a.talk {
   background-color: #d0324b;
 }
 
-#invisible-until-hovered {
+#invisible-until-hovered,
+#invisible-until-hovered1,
+#invisible-until-hovered2,
+#invisible-until-hovered3,
+#invisible-until-hovered4,
+#invisible-until-hovered5,
+#invisible-until-hovered6,
+#invisible-until-hovered7,
+#invisible-until-hovered8,
+#invisible-until-hovered9,
+#invisible-until-hovered10,
+#invisible-until-hovered11,
+#invisible-until-hovered12,
+#invisible-until-hovered13 {
   opacity: 0;
 }
 
@@ -494,7 +507,20 @@ a.talk {
   transition: 0.3s ease-in-out;
 }
 
-#invisible-until-hovered:hover {
+#invisible-until-hovered:hover,
+#invisible-until-hovered1:hover,
+#invisible-until-hovered2:hover,
+#invisible-until-hovered3:hover,
+#invisible-until-hovered4:hover,
+#invisible-until-hovered5:hover,
+#invisible-until-hovered6:hover,
+#invisible-until-hovered7:hover,
+#invisible-until-hovered8:hover,
+#invisible-until-hovered9:hover,
+#invisible-until-hovered10:hover,
+#invisible-until-hovered11:hover,
+#invisible-until-hovered12:hover,
+#invisible-until-hovered13:hover {
   opacity: 1;
 }
 
@@ -745,7 +771,7 @@ p.friend-text {
   margin: 0 auto !important;
   margin: 0px 60px;
   -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s:
+  -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
   line-height: 100px;
@@ -927,6 +953,7 @@ h2.zitalk-prices {
   width: 100%;
   background: #fff;
   -webkit-transform: skew(0deg, 3deg);
+  -moz-transform: skew(0deg, 3deg);
   -ms-transform: skew(0deg, 3deg);
   transform: skew(0deg, 3deg);
 }
